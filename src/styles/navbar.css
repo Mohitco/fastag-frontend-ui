@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #00686E;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.logo img{
+  height: 40px;
+}
+.nav-actions{
+  display: flex;
+  align-items: center;
+}
+.nav-actions button img{
+  height: 30px;
+}
+.nav-actions button{
+  margin-left: 30px;
+}

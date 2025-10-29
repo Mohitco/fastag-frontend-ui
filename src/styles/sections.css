@@ -1,0 +1,32 @@
+.features, .steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.feature-box, .step {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: white;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 0 auto;
+}
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

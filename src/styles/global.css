@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+.light-bg {
+  background: #f9f9f9;
+}
+.primary-btn {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.primary-btn:hover {
+  background: #e65c00;
+}
