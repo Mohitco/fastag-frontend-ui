@@ -5,7 +5,6 @@ import logo from "../assets/logo.png";
 import slidelogo from "../assets/slidelogo.png";
 import login from "../assets/login.png";
 import { FaWallet, FaBars, FaTimes } from "react-icons/fa";
-import "../styles/navbar.css";
 
 export default function Navbar() {
   const loginModal = useModal();
